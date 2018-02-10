@@ -1,0 +1,2 @@
+# don't check node_modules into git
+node_modules/

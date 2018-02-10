@@ -1,0 +1,13 @@
+body {
+  background-color: #ff0033;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 1rem;
+  align-items: center;
+  justify-content: center;
+}
+.child {
+  grid-column-start: 2;
+}
